@@ -8,6 +8,6 @@ const router = express.Router();
 
 
 router.get('/', (req, res) => {
-    res.send('Hyperhire Assessment API');
+    res.send('Hyperhire Assessment API; in order to get the api add "/scrape" to the front of the url');
     });
 export default router;
